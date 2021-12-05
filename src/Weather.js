@@ -1,17 +1,61 @@
 import React from "react";
 import axios from "axios";
+import "./Weather.css";
+import "./App.css";
+import "./index.js";
+import logo from "./logo.jpg";
 
-export default function Weather(props){
- function handleResponse(response){
-    alert(
-     `The weather in ${response.data.name} is 
-      ${response.data.main.temp}°C`
-     );
-    }
-    let apiKey= "42ef142def142e37f3591de51015042b";
-    let unit= "metric";
-    let apiUrl=`https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${apiKey}&units=${unit}`;
-
-    axios.get(apiUrl).then(handleResponse);
-    return <h2>Hello from react</h2>;
+export default function Weather() {
+  return (
+    <div className="Weather">
+      <div className="container">
+        <div className="weather-app">
+          <div className="row">
+            <div className="col-9">
+              <form className="mb-3" />
+              <input
+                type="search"
+                placeHolder="Enter a city..."
+                className="form-control"
+                autoComplete="off"
+              />
+            </div>
+            <div className="col-3">
+              <input
+                type="submit"
+                value="Search"
+                className="btn btn-primary w-100"
+              />
+            </div>
+          </div>
+          <div className="overview">
+            <h1>Tokyo, Japan</h1>
+            <ul>
+              <li>Last updated: Sunday 15:30</li>
+            </ul>
+          </div>
+          <div className="row">
+            <div className="col-6">
+              <div className="clearfix weather-temperature">
+                <img src={logo} alt="Logo" />
+                <div className="float-left">
+                  <span className="temp"> 26 </span>{" "}
+                  <span class="units">
+                    <a href="/"> ℃ </a> | <a href="/"> ℉ </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="col-6">
+              <ul>
+                <li>Humidity: 76 %</li>
+                <li>Wind: 31 km/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
+
