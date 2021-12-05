@@ -1,13 +1,22 @@
 import React from "react";
 import './App.css';
-import Weather from './Weather';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h2>Welcome to React</h2>
-        <Weather city="New York"/>
+      <header className="weather-app-wrapper">
+        <div className="weather-forecast">
+        <small>
+            <a
+              href="https://github.com/mariiiiin913/my-first-weather-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-source code
+            </a>
+            by Marin Rei
+          </small>
+        </div>
       </header>
     </div>
   );
