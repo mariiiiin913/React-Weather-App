@@ -1,9 +1,6 @@
 import React from "react";
-import axios from "axios";
-import "./Weather.css";
 import "./App.css";
 import "./index.js";
-import logo from "./logo.jpg";
 
 export default function Weather() {
   return (
@@ -37,7 +34,6 @@ export default function Weather() {
           <div className="row">
             <div className="col-6">
               <div className="clearfix weather-temperature">
-                <img src={logo} alt="Logo" />
                 <div className="float-left">
                   <span className="temp"> 26 </span>{" "}
                   <span class="units">
