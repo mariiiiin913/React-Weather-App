@@ -12,7 +12,7 @@ function App() {
         <div className="weather-forecast">
         <small>
             <a
-              href="https://github.com/mariiiiin913/my-first-weather-app"
+              href="https://github.com/mariiiiin913/weather-react-marin"
               target="_blank"
               rel="noreferrer"
             >
