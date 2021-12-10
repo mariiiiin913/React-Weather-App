@@ -1,12 +1,8 @@
-img {
-    width: 100px;
-    float: left;
-  }
-  div.weather-app {
+div.weather-app {
     background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
     max-width: 600px;
-    margin: 30px 0px 0px 0px;
-    padding: 10px 20px 20px 20px;
+    margin: 50px 0px 0px 300px;
+    padding: 30px 0px 50px 50px;
     border: 1px solid #dadde1;
     border-radius: 5px;
     border-color: #704c91;
@@ -15,7 +11,7 @@ img {
     margin-bottom: 20px;
   }
   .Weather .clearfix.weather-temperature {
-    padding-left: 20px;
+    padding: 1px 1px 1px 120px;
   }
   .Weather .float-left {
     float: left;
@@ -23,7 +19,8 @@ img {
   }
   .Weather .temp {
     position: relative;
-    font-size: 48px;
+    font-weight: 800;
+    font-size: 50px;
     top: -1px;
     left: 20px;
   }
@@ -41,7 +38,7 @@ img {
     text-align: center;
   }
   .Weather .col-3 {
-    padding-top: 15px;
+    padding-top: 20px;
   }
   ul {
     margin: 0;
@@ -61,7 +58,7 @@ img {
   }
   span.units {
     position: relative;
-    padding: 16px;
-    bottom: 17px;
+    padding: 20px;
+    bottom: 25px;
   }
   
