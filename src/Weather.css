@@ -34,12 +34,6 @@ div.weather-app {
     border-color: #704c91;
     transition: all 200ms ease-in-out;
   }
-  .Weather .col-2 {
-    text-align: center;
-  }
-  .Weather .col-3 {
-    padding-top: 20px;
-  }
   ul {
     margin: 0;
     padding: 0;
