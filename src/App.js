@@ -18,7 +18,7 @@ function App() {
             >
               Open-source code
             </a>
-            by Marin Rei
+            , by Marin Rei
           </small>
         </div>
       </header>
