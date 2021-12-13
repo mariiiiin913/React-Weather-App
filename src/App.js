@@ -1,8 +1,9 @@
 import React from "react";
-import "./Weather.js";
 import "./index.css";
+import "./index.js"
 import "./App.css";
 import "./Weather.css";
+import "./Weather.js";
 
 
 function App() {
