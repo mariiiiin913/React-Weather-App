@@ -1,8 +1,12 @@
 import React from "react";
+import Search from "./Search";
+
 import "./index.js";
 import "./index.css";
 import "./App.css";
+import "./App.js";
 import "./Weather.css";
+import "./Search.css";
 
 export default function Weather() {
   return (
@@ -10,22 +14,7 @@ export default function Weather() {
       <div className="container">
         <div className="weather-app">
           <div className="row">
-            <div className="col-9">
-              <form className="mb-3" />
-              <input
-                type="search"
-                placeHolder="Enter a city..."
-                className="form-control"
-                autoComplete="off"
-              />
-            </div>
-            <div className="col-3">
-              <input
-                type="submit"
-                value="Search"
-                className="btn btn-primary w-100"
-              />
-            </div>
+              <Search />
           </div>
           <div className="overview">
             <h1>Tokyo, Japan</h1>

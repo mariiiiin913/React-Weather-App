@@ -24,16 +24,6 @@ div.weather-app {
     top: -1px;
     left: 20px;
   }
-  .Weather .btn-primary {
-    background-color: #704c91;
-    border-color: #704c91;
-  }
-  .Weather .btn-primary:hover {
-    color: #704c91;
-    background-color: #fff;
-    border-color: #704c91;
-    transition: all 200ms ease-in-out;
-  }
   ul {
     margin: 0;
     padding: 0;
