@@ -1,0 +1,23 @@
+
+.btn-primary {
+    color: white;
+    background-color: #704c91;
+    border-color: #704c91;
+    border-radius: 5px;
+    padding:4px 7px 4px 10px;
+  }
+.btn-primary:hover {
+    color: #704c91;
+    background-color: #fff;
+    border-color: #704c91;
+    transition: all 200ms ease-in-out;
+  }
+  
+.form-control {
+    width: 50% !important;
+    margin: 0.5em 0;
+    margin-right: 5px;
+    font-size: 90%;
+    border: 30px;
+    border-radius: 5px;
+  }
