@@ -20,6 +20,7 @@ export default function Weather() {
             <h1>Tokyo, Japan</h1>
             <ul>
               <li>Last updated: Sunday 15:30</li>
+              <li>Sunny</li>
             </ul>
           </div>
           <div className="row">
@@ -39,8 +40,26 @@ export default function Weather() {
                 <li>Wind: 31 km/h</li>
               </ul>
             </div>
+            <br />
+            <hr />
+            <div className="weather-forecast">
+            <div className="row">
+              <div className="col-2">
+                <div className="weather-forecast-date">Thu</div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="42"
+                />
+                <div className="weather-forecast-temperatures">
+                  <span className="weather-forecast-temperature-max"> 18° </span>
+                  <span className="weather-forecast-temperature-min"> 12° </span>
+                </div>
+              </div>
+            </div>
+            </div>
           </div>
-        </div>
+        </div> 
       </div>
     </div>
   );
