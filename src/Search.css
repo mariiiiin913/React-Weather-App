@@ -4,7 +4,10 @@
     background-color: #704c91;
     border-color: #704c91;
     border-radius: 5px;
-    padding: 9px 20px 9px 20px;
+    font-family: "DM Serif Display";
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px 35px 10px 35px;
   }
 .btn-primary:hover {
     color: #704c91;
@@ -14,11 +17,14 @@
   }
   
 .form-control {
-    width: 50% !important;
-    margin: 0.5em 0;
-    margin-right: 5px;
-    padding:8px;
-    font-size: 90%;
-    border: 30px;
+    background-color: #f4f3f5;
+    color: #acaaaa;
+    font-family: "DM Serif Display", serif;
+    font-weight: bold;
+    width: 75% !important;
+    margin: 2px 15px 0px 0px;
+    padding: 8px 8px 10px 8px;
+    font-size: 18px;
+    border: 1px solid #acaaaa;
     border-radius: 5px;
   }
