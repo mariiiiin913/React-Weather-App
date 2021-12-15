@@ -1,19 +1,15 @@
 body {
-  font-family: "DM Serif Display";
+  font-family: "DM Serif Display", serif;
 }
 
 h1 {
   color: rgb(29, 5, 42);
   display: block;
   font-size: 43px;
-  line-height: 50px;
+  font-weight: 100px;
+  line-height: 28px;
   margin: 10px auto 20px;
   padding: 10px 0px 5px 23px;
-}
-div.weather-forecast {
-  position: relative;
-  left: 300px;
-  top:8px;
 }
 div.container {
   padding-left: 0px;

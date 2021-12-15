@@ -1,30 +1,19 @@
 
 .btn-primary {
-    color: white;
-    background-color: #704c91;
-    border-color: #704c91;
-    border-radius: 5px;
-    font-family: "DM Serif Display";
-    font-size: 15px;
-    font-weight: bolder;
-    padding: 10px 35px 10px 35px;
-  }
+  background-color: #704c91;
+  border-color: #704c91;
+}
 .btn-primary:hover {
-    color: #704c91;
-    background-color: #fff;
-    border-color: #704c91;
-    transition: all 200ms ease-in-out;
-  }
-  
+  color: #704c91;
+  background-color: #fff;
+  border-color: #704c91;
+  transition: all 200ms ease-in-out;
+}
 .form-control {
-    background-color: #f4f3f5;
-    color: #acaaaa;
-    font-family: "DM Serif Display", serif;
-    font-weight: bold;
-    width: 75% !important;
-    margin: 2px 15px 0px 0px;
-    padding: 8px 8px 10px 8px;
-    font-size: 18px;
-    border: 1px solid #acaaaa;
-    border-radius: 5px;
+    background-color: #f9f9f6;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    line-height: 1.5;
+    padding: .375rem .75rem;
+    font-size: 1rem;
   }
