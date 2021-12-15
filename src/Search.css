@@ -4,7 +4,7 @@
     background-color: #704c91;
     border-color: #704c91;
     border-radius: 5px;
-    padding:4px 7px 4px 10px;
+    padding: 9px 20px 9px 20px;
   }
 .btn-primary:hover {
     color: #704c91;
@@ -17,6 +17,7 @@
     width: 50% !important;
     margin: 0.5em 0;
     margin-right: 5px;
+    padding:8px;
     font-size: 90%;
     border: 30px;
     border-radius: 5px;
