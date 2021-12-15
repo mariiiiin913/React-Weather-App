@@ -40,6 +40,7 @@ export default function Weather() {
                 <li>Wind: 31 km/h</li>
               </ul>
             </div>
+            </div>
             <br />
             <hr />
             <div className="weather-forecast">
@@ -58,7 +59,6 @@ export default function Weather() {
               </div>
             </div>
             </div>
-          </div>
         </div> 
       </div>
     </div>
