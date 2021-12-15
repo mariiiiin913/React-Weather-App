@@ -19,10 +19,11 @@ export default function Search(){
     return (
         <div className="row">
         <div className="col-9">
-              <form className="mb-3" />
+              <form className="mb-3" onSubmit={handleSubmit}/>
               <input
                 type="search"
-                placeHolder="Enter a city..."
+                placeHolder="Enter a city..." 
+                onChange={updateCity} 
                 className="form-control"
                 autoComplete="off"
               />
