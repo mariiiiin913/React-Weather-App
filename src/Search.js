@@ -37,7 +37,7 @@ export default function Search(){
             </div>
             <div className="col-2">
             <input class="btn btn btn-outline-warning location" type="button" 
-            value={<i class="fas fa-map-marker-alt"></i>} />
+            value= "📍" />
             </div>
             </div>
     )
