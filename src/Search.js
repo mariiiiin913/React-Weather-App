@@ -18,7 +18,7 @@ export default function Search(){
     
     return (
         <div className="row">
-        <div className="col-9">
+        <div className="col-7">
               <form className="mb-3" onSubmit={handleSubmit}/>
               <input
                 type="search"
@@ -34,6 +34,10 @@ export default function Search(){
                 value="Search"
                 className="btn btn-primary w-100"
               />
+            </div>
+            <div className="col-2">
+            <input class="btn btn btn-outline-warning location" type="button" 
+            value={<i class="fas fa-map-marker-alt"></i>} />
             </div>
             </div>
     )
