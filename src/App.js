@@ -7,12 +7,13 @@ import "./Weather.css";
 import "./Weather.js";
 
 
+
 function App() {
   return (
     <div className="App">
       <header className="weather-app-wrapper">
         <div className="weather-forecast">
-        <small>
+        <small className="github-link">
             <a
               href="https://github.com/mariiiiin913/weather-react-marin"
               target="_blank"
