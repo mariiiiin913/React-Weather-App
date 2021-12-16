@@ -13,12 +13,12 @@
 }
 .btn-primary:hover{
   color: #704c91;
-  background-color: #fff;
+  background-color: #f9f9f6;
   border-color: #704c91;
   transition: all 200ms ease-in-out;
 }
 .btn-outline-warning{
-  background-color: #f1f1f1;
+  background-color: #f9f9f6;
   border-color: #704c91;
 }
 .btn-outline-warning:hover {
