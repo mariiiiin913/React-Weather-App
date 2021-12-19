@@ -67,13 +67,108 @@ export default function Weather() {
                    <span className="weather-forcast-temperature-min">
                      12°
                    </span>
+                   </div>
+                  </div>
+                 <div className="col-2">
+                 <div className="weather-forcast-date">
+                 Tue
+                 </div>
+                 <br />
+                 <img src="http://openweathermap.org/img/wn/10d@2x.png"
+                 alt=""
+                 width="36"
+                 />
+                 <br />
+                 <div className="weather-forcast-temperature">
+                   <span className="weather-forcast-temperature-max">
+                    18°
+                   </span>
+                   <span className="weather-forcast-temperature-min">
+                     12°
+                   </span>
+                   </div>
+                  </div>
+                  <div className="col-2">
+                 <div className="weather-forcast-date">
+                 Wed
+                 </div>
+                 <br />
+                 <img src="http://openweathermap.org/img/wn/10d@2x.png"
+                 alt=""
+                 width="36"
+                 />
+                 <br />
+                 <div className="weather-forcast-temperature">
+                   <span className="weather-forcast-temperature-max">
+                    18°
+                   </span>
+                   <span className="weather-forcast-temperature-min">
+                     12°
+                   </span>
+                   </div>
+                  </div>
+                 <div className="col-2">
+                 <div className="weather-forcast-date">
+                 Thu
+                 </div>
+                 <br />
+                 <img src="http://openweathermap.org/img/wn/10d@2x.png"
+                 alt=""
+                 width="36"
+                 />
+                 <br />
+                 <div className="weather-forcast-temperature">
+                   <span className="weather-forcast-temperature-max">
+                    18°
+                   </span>
+                   <span className="weather-forcast-temperature-min">
+                     12°
+                   </span>
+                   </div>
+                  </div>
+                  <div className="col-2">
+                 <div className="weather-forcast-date">
+                 Fri
+                 </div>
+                 <br />
+                 <img src="http://openweathermap.org/img/wn/10d@2x.png"
+                 alt=""
+                 width="36"
+                 />
+                 <br />
+                 <div className="weather-forcast-temperature">
+                   <span className="weather-forcast-temperature-max">
+                    18°
+                   </span>
+                   <span className="weather-forcast-temperature-min">
+                     12°
+                   </span>
+                   </div>
+                  </div>
+                 <div className="col-2">
+                 <div className="weather-forcast-date">
+                 Sat
+                 </div>
+                 <br />
+                 <img src="http://openweathermap.org/img/wn/10d@2x.png"
+                 alt=""
+                 width="36"
+                 /> 
+                 <br />
+                 <div className="weather-forcast-temperature">
+                   <span className="weather-forcast-temperature-max">
+                    18°
+                   </span>
+                   <span className="weather-forcast-temperature-min">
+                     12°
+                   </span>
+                   </div>
                  </div>
                </div>
              </div>
            </div>
             </div>
           </div>
-        </div>
       );
     }
     
