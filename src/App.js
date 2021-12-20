@@ -17,7 +17,7 @@ function App() {
             <a
               href="https://github.com/mariiiiin913/weather-react-marin"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Open-source code
             </a>
