@@ -19,16 +19,16 @@ span.units {
   padding: 16px;
   bottom: 17px;
 }
-
-
+footer{
+  font-size:15px;
+  margin-top:10px;
+}
 div.weather-app {
   background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 15px;
   border: 1px solid #dadde1;
   border-radius: 5px;
   border-color: #704c91;
+  padding: 17px;
 }
 .Weather .overview {
   margin-bottom: 20px;
@@ -63,10 +63,6 @@ div.weather-app {
 .main-weather-icon {
   width: 100px;
   float: left;
-}
-.github-link{
-    position: relative;
-    left:265px;
 }
 #forecast {
   text-align: center;
