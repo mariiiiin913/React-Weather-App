@@ -13,7 +13,6 @@ function App() {
       <Weather />
       <div className="container">
       <div className="weather-app-wrapper">
-        <div className="weather-forecast">
          <footer className="github-link">
             <a
               href="https://github.com/mariiiiin913/weather-react-marin"
@@ -25,7 +24,6 @@ function App() {
             , by Marin Rei
             </footer>
           </div>
-        </div>
       </div>
     </div>
   );
