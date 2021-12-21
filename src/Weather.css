@@ -30,6 +30,15 @@ div.weather-app {
   border-color: #704c91;
   padding: 17px;
 }
+.Weather h1 {
+  color: rgb(29, 5, 42);
+  display: block;
+  font-size: 43px;
+  font-weight: 100px;
+  line-height: 28px;
+  margin: 20px auto 20px;
+  padding: 10px 0px 5px 23px;
+}
 .Weather .overview {
   margin-bottom: 20px;
 }

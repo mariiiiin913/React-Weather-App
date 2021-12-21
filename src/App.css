@@ -3,16 +3,6 @@ body {
   background-color: rgb(246, 231, 253);
   background-image: url("sky.jpg");
 }
-
-h1 {
-  color: rgb(29, 5, 42);
-  display: block;
-  font-size: 43px;
-  font-weight: 100px;
-  line-height: 28px;
-  margin: 20px auto 20px;
-  padding: 10px 0px 5px 23px;
-}
 .App{
   max-width: 700px;
   margin: 30px auto;
