@@ -24,8 +24,8 @@ span.units {
 div.weather-app {
   background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
   max-width: 600px;
-  margin: 60px 0px 0px 250px;
-  padding: 10px 20px 20px 20px;
+  margin: 30px auto;
+  padding: 15px;
   border: 1px solid #dadde1;
   border-radius: 5px;
   border-color: #704c91;
@@ -57,9 +57,6 @@ div.weather-app {
 .Weather .weather-forecast-temperatures {
   font-size: 13px;
 }
-.Weather .col-2 {
-  text-align: left;
-}
 .Weather .col-3, .col-2{
   padding-top: 15px;
 }
@@ -70,4 +67,7 @@ div.weather-app {
 .github-link{
     position: relative;
     left:265px;
+}
+#forecast {
+  text-align: center;
 }
