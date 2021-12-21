@@ -19,10 +19,6 @@ span.units {
   padding: 16px;
   bottom: 17px;
 }
-footer{
-  font-size:15px;
-  margin:10px;
-}
 div.weather-app {
   background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
   border: 1px solid #dadde1;
