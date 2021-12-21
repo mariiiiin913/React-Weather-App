@@ -25,7 +25,7 @@ export default function Search(){
                 placeHolder="Enter a city..." 
                 onChange={updateCity} 
                 className="form-control"
-                autoComplete="off"
+                autoFocus="on"
               />
             </div>
             <div className="col-3">
