@@ -1,20 +1,20 @@
 import React from "react";
+import Weather from "./Weather";
 
 import "./index.css";
 import "./index.js"
 import "./App.css";
-import "./Weather.css";
-import "./Weather.js";
 
 
 
 function App() {
   return (
     <div className="App">
+      <Weather />
       <div className="container">
-      <header className="weather-app-wrapper">
+      <div className="weather-app-wrapper">
         <div className="weather-forecast">
-        <small className="github-link">
+      <footer className="github-link">
             <a
               href="https://github.com/mariiiiin913/weather-react-marin"
               target="_blank"
@@ -23,9 +23,9 @@ function App() {
               Open-source code
             </a>
             , by Marin Rei
-          </small>
-        </div>
-      </header>
+          </footer>
+          </div>
+          </div>
       </div>
     </div>
   );
