@@ -21,14 +21,14 @@ span.units {
 }
 footer{
   font-size:15px;
-  margin-top:10px;
+  margin:10px;
 }
 div.weather-app {
   background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 15px;
   border-color: #704c91;
-  padding: 17px;
+  padding: 15px 25px 25px 25px;
 }
 .Weather h1 {
   color: rgb(29, 5, 42);
@@ -56,6 +56,9 @@ div.weather-app {
   top: -1px;
   left: 20px;
 }
+.Weather .weather-forecast{
+  text-align: center;
+}
 .Weather .weather-forecast-date {
   font-size: 16px;
   color: rgb(29, 5, 42);
@@ -72,7 +75,4 @@ div.weather-app {
 .main-weather-icon {
   width: 100px;
   float: left;
-}
-#forecast {
-  text-align: center;
 }
