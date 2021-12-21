@@ -48,10 +48,10 @@ export default function Weather() {
                 </div>
               </div>
               <hr />
-           <div className="weather-forecast">
+           <div className="weather-forecast" id="forecast">
              <div className="row">
                <div className="col-2">
-                 <div className="weather-forcast-date">
+                 <div className="weather-forecast-date">
                  Mon
                  </div>
                  <br />
@@ -60,17 +60,17 @@ export default function Weather() {
                  width="36"
                  />
                  <br />
-                 <div className="weather-forcast-temperature">
-                   <span className="weather-forcast-temperature-max">
+                 <div className="weather-forecast-temperature">
+                   <span className="weather-forecast-temperature-max">
                     18°
                    </span>
-                   <span className="weather-forcast-temperature-min">
+                   <span className="weather-forecast-temperature-min">
                      12°
                    </span>
                    </div>
                   </div>
                  <div className="col-2">
-                 <div className="weather-forcast-date">
+                 <div className="weather-forecast-date">
                  Tue
                  </div>
                  <br />
@@ -79,17 +79,17 @@ export default function Weather() {
                  width="36"
                  />
                  <br />
-                 <div className="weather-forcast-temperature">
-                   <span className="weather-forcast-temperature-max">
+                 <div className="weather-forecast-temperature">
+                   <span className="weather-forecast-temperature-max">
                     18°
                    </span>
-                   <span className="weather-forcast-temperature-min">
+                   <span className="weather-forecast-temperature-min">
                      12°
                    </span>
                    </div>
                   </div>
-                  <div className="col-2">
-                 <div className="weather-forcast-date">
+                  <div className="col-2" id="forecast">
+                 <div className="weather-forecast-date">
                  Wed
                  </div>
                  <br />
@@ -98,17 +98,17 @@ export default function Weather() {
                  width="36"
                  />
                  <br />
-                 <div className="weather-forcast-temperature">
-                   <span className="weather-forcast-temperature-max">
+                 <div className="weather-forecast-temperature">
+                   <span className="weather-forecast-temperature-max">
                     18°
                    </span>
-                   <span className="weather-forcast-temperature-min">
+                   <span className="weather-forecast-temperature-min">
                      12°
                    </span>
                    </div>
                   </div>
-                 <div className="col-2">
-                 <div className="weather-forcast-date">
+                 <div className="col-2" id="forecast">
+                 <div className="weather-forecast-date">
                  Thu
                  </div>
                  <br />
@@ -117,17 +117,17 @@ export default function Weather() {
                  width="36"
                  />
                  <br />
-                 <div className="weather-forcast-temperature">
-                   <span className="weather-forcast-temperature-max">
+                 <div className="weather-forecast-temperature">
+                   <span className="weather-forecast-temperature-max">
                     18°
                    </span>
-                   <span className="weather-forcast-temperature-min">
+                   <span className="weather-forecast-temperature-min">
                      12°
                    </span>
                    </div>
                   </div>
-                  <div className="col-2">
-                 <div className="weather-forcast-date">
+                  <div className="col-2" id="forecast">
+                 <div className="weather-forecast-date">
                  Fri
                  </div>
                  <br />
@@ -136,17 +136,17 @@ export default function Weather() {
                  width="36"
                  />
                  <br />
-                 <div className="weather-forcast-temperature">
-                   <span className="weather-forcast-temperature-max">
+                 <div className="weather-forecast-temperature">
+                   <span className="weather-forecast-temperature-max">
                     18°
                    </span>
-                   <span className="weather-forcast-temperature-min">
+                   <span className="weather-forecast-temperature-min">
                      12°
                    </span>
                    </div>
                   </div>
-                 <div className="col-2">
-                 <div className="weather-forcast-date">
+                 <div className="col-2" id="forecast">
+                 <div className="weather-forecast-date">
                  Sat
                  </div>
                  <br />
@@ -155,11 +155,11 @@ export default function Weather() {
                  width="36"
                  /> 
                  <br />
-                 <div className="weather-forcast-temperature">
-                   <span className="weather-forcast-temperature-max">
+                 <div className="weather-forecast-temperature">
+                   <span className="weather-forecast-temperature-max">
                     18°
                    </span>
-                   <span className="weather-forcast-temperature-min">
+                   <span className="weather-forecast-temperature-min">
                      12°
                    </span>
                    </div>
