@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import Search from "./Search";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 import "./index.js";
 import "./index.css";
@@ -13,12 +14,12 @@ import "./Search.css";
 export default function Weather() {
   const [weatherData,setWeatherData]=useState({ready: false});
   function handleResponse(response){
-    console.log(response.data);
+    ///console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
-      date: "Sunday 15:30",
+      date: new Date(response.data.dt * 1000),
       iconUrl:`http://openweathermap.org/img/wn/01d@2x.png`,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
@@ -36,7 +37,9 @@ export default function Weather() {
               <div className="overview">
                 <h1>{weatherData.city}, {weatherData.country}</h1>
                 <ul>
-                  <li>Last updated: {weatherData.date}</li>
+                  <li>
+                    <FormattedDate date={weatherData.date} />
+                    </li>
                   <li>{weatherData.description}</li>
                 </ul>
               </div>
