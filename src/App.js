@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather defaultCity={"Tokyo"}/>
       <div className="container">
       <div className="weather-app-wrapper">
          <footer className="github-link">
