@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -14,10 +18,12 @@ li {
 li::first-letter {
   text-transform: capitalize;
 }
-span.units {
+.units {
   position: relative;
   padding: 16px;
-  bottom: 17px;
+  bottom: 26px;
+  font-size: 22px;
+  font-weight: bold;
 }
 div.weather-app {
   background: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
@@ -34,6 +40,9 @@ div.weather-app {
   line-height: 28px;
   margin: 20px auto 20px;
   padding: 10px 0px 5px 23px;
+}
+.Weather form{
+  margin-top: 30px;
 }
 .Weather .WeatherInfo{
   margin-bottom: 20px;
@@ -65,9 +74,7 @@ div.weather-app {
 .Weather .weather-forecast-temperatures {
   font-size: 13px;
 }
-.Weather .col-3, .col-2{
-  padding-top: 15px;
-}
+
 .main-weather-icon {
   width: 100px;
   float: left;
