@@ -1,35 +1,36 @@
 import React from "react";
+import FormattedDate from "./FormattedDate";
 
-export default function WeatherInfo(){
+export default function WeatherInfo(props){
     return (
     <div className="WeatherInfo">
-    <h1>{weatherData.city}, {weatherData.country}</h1>
+    <h1>{props.data.city}</h1>
     <ul>
       <li>
-        <FormattedDate date={weatherData.date} />
+        <FormattedDate date={props.data.date} />
         </li>
-      <li>{weatherData.description}</li>
+      <li>{props.data.description}</li>
     </ul>
   <div className="row">
     <div className="col-6">
       <div className="clearfix weather-temperature">
-      <img src= {weatherData.iconUrl}
+      <img src= {props.data.iconUrl}
       className="main-weather-icon"
-     alt= {weatherData.description}
+     alt= {props.data.description}
      width="100"
      />
         <div className="float-left">
-          <span className="temp"> {Math.round(weatherData.temperature)} </span>{" "}
+          <span className="temp"> {Math.round(props.data.temperature)} </span>{" "}
           <span class="units">
-            <a href="/"> ℃ </a> | <a href="/"> ℉ </a>
+            <a href="/"> ℃ {""} </a>|<a href="/">{""}℉ </a>
           </span>
         </div>
       </div>
     </div>
     <div className="col-6">
       <ul>
-        <li>Humidity: {Math.round(weatherData.humidity)} %</li>
-        <li>Wind: {Math.round(weatherData.wind)} km/h</li>
+        <li>Humidity: {Math.round(props.data.humidity)} %</li>
+        <li>Wind: {Math.round(props.data.wind)} km/h</li>
         <li>Precipitation: 20 %</li>
       </ul>
     </div>
