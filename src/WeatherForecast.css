@@ -1,0 +1,13 @@
+.Weather .weather-forecast{
+    text-align: center;
+  }
+  .Weather .weather-forecast-day {
+    font-size: 16px;
+    color: rgb(29, 5, 42);
+  }
+  .Weather .weather-forecast-temperature-min {
+    opacity: 0.5;
+  }
+  .Weather .weather-forecast-temperatures {
+    font-size: 13px;
+  }
