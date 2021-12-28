@@ -14,6 +14,13 @@ function App() {
       <div className="container">
       <div className="weather-app-wrapper">
          <footer className="github-link">
+           Coded by <a
+              href="https://www.linkedin.com/in/marin-rei-70260690/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Marin Rei
+            </a>, and {""}
             <a
               href="https://github.com/mariiiiin913/weather-react-marin"
               target="_blank"
@@ -21,7 +28,7 @@ function App() {
             >
               Open-source code
             </a>
-            , by Marin Rei
+            {""} on Github.
             </footer>
           </div>
       </div>
