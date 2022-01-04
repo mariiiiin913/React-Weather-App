@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
   export default function CurrentLocationButton(){
-  const [lat, setLat] = useState(null);
-  const [lng, setLng] = useState(null);
   const [status, setStatus] = useState(null);
 
   const getLocation = () => {
@@ -23,8 +21,7 @@ import React, { useState } from 'react';
     <input class="btn btn btn-outline-warning location" type="button" 
     value=" 📍" onClick={getLocation}/>
     <p>{status}</p>
-      {lat && <p>Latitude: {lat}</p>}
-      {lng && <p>Longitude: {lng}</p>}
+
     </div>
     );
 }
