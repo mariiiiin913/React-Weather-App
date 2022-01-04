@@ -45,6 +45,8 @@ export default function Weather(props) {
       setCity(event.target.value);
     }
 
+    ///Current Location
+
     function getPosition(position) {
       let lati = position.coords.latitude;
       let longi = position.coords.longitude;
