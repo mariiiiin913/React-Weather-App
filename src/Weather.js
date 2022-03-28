@@ -85,7 +85,7 @@ export default function Weather(props) {
             </div>
             <div className="col-2">
             <input class="btn btn btn-outline-warning location" type="button" 
-             value=" 📍" onClick={getCurrentPosition}/>
+             value=" 📍 " onClick={getCurrentPosition}/>
              </div>
             </div>
             </form>
